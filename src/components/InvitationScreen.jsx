@@ -7,8 +7,7 @@ const WHATSAPP_NUMBER = '573138754025'
 const MAPS_LINK = 'https://maps.app.goo.gl/UwDjA2GV1oMpn18s7'
 const EVENT_DATE = new Date(2026, 8, 12, 21, 0, 0)
 
-const CONFIRM_MESSAGE =
-  'Confirmo mi asistencia al cumpleaños de Yonnier León el sábado 12 de Septiembre a las 9:00 PM en Kapri Shots'
+const CONFIRM_MESSAGE = 'Confirmo mi asistencia a tu cumpleaños el sábado 12 de septiembre'
 
 function buildWhatsAppLink(message) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
